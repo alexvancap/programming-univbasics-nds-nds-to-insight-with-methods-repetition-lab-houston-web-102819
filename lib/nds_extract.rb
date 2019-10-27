@@ -41,7 +41,7 @@ def total_gross(source)
     total += directors_totals(directors_database)[list_of_directors(directors_database)[row_index]]
     row_index += 1
   end
-
+  total
   # Write this implementation
   #
   # Should use methods:
