@@ -55,4 +55,4 @@ def total_gross(source)
 
 end
 
-total_gross(directors_database)
+p total_gross(directors_database)
