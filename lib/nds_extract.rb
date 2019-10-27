@@ -35,7 +35,7 @@ def list_of_directors(source)
 end
 
 def total_gross(source)
-  pp directors_totals(directors_database)
+  pp directors_totals(directors_database)["Stephen Spielberg"]
   pp list_of_directors(directors_database)
 
   # Write this implementation
