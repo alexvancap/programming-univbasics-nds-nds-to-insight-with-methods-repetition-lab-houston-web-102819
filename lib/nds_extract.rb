@@ -36,7 +36,6 @@ end
 
 def total_gross(source)
   directors_totals(directors_database)
-  list_of_directors(directors_database)
 
   # Write this implementation
   #
