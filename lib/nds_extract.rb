@@ -35,8 +35,6 @@ def list_of_directors(source)
 end
 
 def total_gross(source)
-  pp directors_totals(directors_database)["Stephen Spielberg"]
-  pp list_of_directors(directors_database)
 
   row_index = 0
   while row_index < source.length do
