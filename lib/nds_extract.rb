@@ -51,4 +51,4 @@ def total_gross(source)
 
 end
 
-p total_gross(directors_database)
+total_gross(directors_database)
