@@ -38,6 +38,12 @@ def total_gross(source)
   pp directors_totals(directors_database)["Stephen Spielberg"]
   pp list_of_directors(directors_database)
 
+  row_index = 0
+  while row_index < source.length do
+
+    row_index += 1
+  end
+
   # Write this implementation
   #
   # Should use methods:
