@@ -36,7 +36,7 @@ end
 
 def total_gross(source)
 
-  row_index = 0
+  row_index = total = 0
   while row_index < source.length do
     p directors_totals(directors_database)[list_of_directors(directors_database)[row_index]]
     row_index += 1
